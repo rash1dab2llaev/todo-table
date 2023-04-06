@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="center_block">
+            <h1 class="firstH1">Users info</h1>
+            <!-- add button -->
+            <input type="button" value="Add" class="Add_btn">
+            <!-- add modal -->
+            <div class="add_modal_block">
+                <!-- modal content -->
+                <div class="add_block_modal_content">
+
+                    <input type="text" class="name_add_input" placeholder="Enter your name">
+                    <input type="text" class="sourName_add_input" placeholder="Enter your sourname">
+                    <input type="text" class="age_add_input" placeholder="Enter your age">
+
+                    <select name="" id="select">
+                        <option value="JS">JS</option>
+                        <option value="C++">C++</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                    </select>
+
+                    <!-- add and canle buttons -->
+                    <div class="add_canle_block">
+                        <input type="button" value="Add" class="add_modal_input">
+                        <input type="button" value="canle" class="canle_modal_input">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- table -->
+            <div class="table_block">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>NAME</th>
+                            <th>SOURNAME</th>
+                            <th>AGE</th>
+                            <th>COURSE</th>
+                            <th>ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <!-- edit modal -->
+            <div class="edit_modal_block">
+                <!-- modal content -->
+                <div class="edit_block_modal_content">
+
+                    <input type="text" class="name_edit_input" placeholder="Enter your name">
+                    <input type="text" class="sourName_edit_input" placeholder="Enter your sourname">
+                    <input type="text" class="age_edit_input" placeholder="Enter your age">
+
+                    <select name="" id="select_edit">
+                        <option value="JS">JS</option>
+                        <option value="C++">C++</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                    </select>
+
+                    <!-- edit and canle buttons -->
+                    <div class="edit_canle_block">
+                        <input type="button" value="Add" class="edit_add_modal_input">
+                        <input type="button" value="canle" class="edit_canle_modal_input">
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

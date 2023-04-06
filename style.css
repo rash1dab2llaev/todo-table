@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-image: url(./img/look.com.ua-395841.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+/* center block */
+.center_block {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* h1 */
+.firstH1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* add buttom */
+.Add_btn {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 1em;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+/* add modal  */
+.add_modal_block {
+    display: none;
+    width: 190px;
+    margin: 0 auto;
+}
+
+.add_block_modal_content input {
+    padding: 10px 45px;
+
+}
+
+.add_canle_block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add_canle_block input {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+/* edit modal */
+
+.edit_modal_block {
+    display: none;
+    position: fixed;
+    right: 190px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+.edit_block_modal_content input {
+    padding:10px 45px;
+    
+}
+
+.edit_canle_block{
+    display: flex;
+    margin-bottom: 20px;
+}
+.edit_canle_block input{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+/* table */
+table {
+    border: 1px solid black;
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: 1%;
+    margin: 10px;
+}
